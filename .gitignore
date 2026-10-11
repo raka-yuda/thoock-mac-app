@@ -1,0 +1,25 @@
+# macOS and Xcode user state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Swift build artifacts
+.build/
+.swiftpm/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.secret.xcconfig
+Config/Secrets.xcconfig
+
+# Private planning material and screenshots containing local workspace data
+thoock-mac-app/PRODUCT_BRIEF.md
+docs/screenshots/
